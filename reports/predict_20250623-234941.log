@@ -1,0 +1,5 @@
+2025-06-23 23:49:41 | INFO     | Loaded model: xgb_rossmann_20250623-183126.pkl
+2025-06-23 23:49:42 | INFO     | Loaded test features: shape=(41088, 60) | nulls=0
+2025-06-23 23:49:43 | INFO     | Saved forecast → reports\forecast_20250623-234941.csv | rows=41088
+2025-06-23 23:49:51 | INFO     | Diagnostic plot saved → reports\forecast_20250623-234941.png
+2025-06-23 23:49:51 | INFO     | ✅ Forecasting complete. Output folder: C:\Users\HP\Desktop\rossmann_xgboost_forecasting\reports

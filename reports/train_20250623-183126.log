@@ -1,0 +1,10 @@
+2025-06-23 18:31:27,378 | INFO     | Loaded train features: shape=(1017209, 60) | nulls=0
+2025-06-23 18:31:27,845 | INFO     | Starting RandomizedSearchCV (n_iter=40, cv=5)…
+2025-06-23 21:49:21,211 | INFO     | Best CV RMSE: 751.8286
+2025-06-23 21:49:21,226 | INFO     | Best params: {'subsample': 0.8, 'reg_lambda': 1, 'n_estimators': 600, 'min_child_weight': 3, 'max_depth': 10, 'learning_rate': 0.05, 'gamma': 0.1, 'colsample_bytree': 0.8}
+2025-06-23 21:49:23,351 | INFO     | Saved booster → models\xgb_rossmann_20250623-183126.json
+2025-06-23 21:49:23,366 | INFO     | Saved wrapper → models\xgb_rossmann_20250623-183126.pkl
+2025-06-23 21:49:23,420 | INFO     | Saved CV results → reports\cv_results_20250623-183126.csv
+2025-06-23 21:49:23,458 | INFO     | Saved feature importance → reports\feature_importance_20250623-183126.csv
+2025-06-23 21:49:23,458 | WARNING  | pyyaml not installed – skipping YAML dump: reports\run_20250623-183126.yml
+2025-06-23 21:49:23,458 | INFO     | ✅ Training complete.

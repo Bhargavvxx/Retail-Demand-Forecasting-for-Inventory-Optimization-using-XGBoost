@@ -1,0 +1,11 @@
+timestamp: 20250623-233516
+rows_holdout: 46830
+rmse: 450.2091979980469
+mae: 317.2441711425781
+rmspe: 0.07873676717281342
+mape: 0.05813830718398094
+baseline_rmse: 2629.305908203125
+rmse_improvement_%: 82.87725830078125
+model_path: models\xgb_rossmann_20250623-183126.pkl
+feature_file: data\features\train_fe.parquet
+horizon_days: 42

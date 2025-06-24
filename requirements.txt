@@ -1,0 +1,26 @@
+# ───────── CORE MATH / TABLES ─────────
+numpy==1.26.4
+pandas==2.2.2               # Parquet & nullable dtypes
+
+# ───────── ML + MODELING ─────────
+scikit-learn==1.5.0         # ≥1.4 for root_mean_squared_error API
+xgboost==2.0.3              # native categorical + JSON save
+patsy==0.5.6                # cubic splines in feature engineering
+
+# ───────── I/O / FILE FORMATS ────────
+pyarrow==15.0.2             # fast Parquet read / write
+fastparquet==2024.2.0       # optional fallback (pandas detects)
+
+# ───────── VISUALISATION ─────────
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# ───────── UTILITIES ─────────
+tqdm==4.66.4                # progress bars (optional)
+joblib==1.4.2               # model persistence (sklearn dependency)
+
+# ───────── OPTIONAL NICE-TO-HAVE ─────
+PyYAML==6.0.1               # run-metadata dumps
+GitPython==3.1.42           # git hash in reports
+
+# (scipy is pulled in automatically by scikit-learn)
